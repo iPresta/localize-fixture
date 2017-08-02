@@ -1,0 +1,14 @@
+{
+	"name": "ipresta/prestashop-cssflip",
+	"description": "Flip LTR CSS to RTL",
+	"license": "MIT License",
+	"autoload": {
+		"psr-0": {
+			"": "src/"
+		}
+	},
+	"require": {
+		"php": ">=5.4",
+		"cssjanus/cssjanus":"~v1.2"
+	}
+}
