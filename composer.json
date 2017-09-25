@@ -8,7 +8,6 @@
 		}
 	},
 	"require": {
-		"php": ">=5.4",
-		"cssjanus/cssjanus":"~v1.2"
+		"php": ">=5.4"
 	}
 }

@@ -7,6 +7,9 @@
  * @version 1.0.0
  *
  */
+if (!class_exists('CSSJanus')) {
+	require_once 'CSSJanus.php';
+}
 class RTLGenerator {
     public static $definitions = array(
         'type' => 'css' // OR 'scss'
@@ -21,7 +24,7 @@ class RTLGenerator {
     }
     public static function make_rtl($content, $file) {
         //make rtl current file
-        $rtl_content = \CSSJanus::transform($content);
+        $rtl_content = CSSJanus::transform($content);
         $path = pathinfo($file);
         $rtl_file = $path['dirname'].'/'.$path['filename'].'_rtl.css';
         if (file_exists($rtl_file))

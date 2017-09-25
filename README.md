@@ -24,5 +24,5 @@ PrestaShop >= 1.7.2
 ``
 
 ``
-CssJanus class from GitHub
+CssJanus class from GitHub (included)
 ``
