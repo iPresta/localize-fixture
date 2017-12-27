@@ -22,7 +22,3 @@ php >= 5.4
 ``
 PrestaShop >= 1.7.2
 ``
-
-``
-CssJanus class from GitHub (included)
-``
